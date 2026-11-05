@@ -22,6 +22,11 @@ body {
 	margin: 10% 4rem 0 4rem;
 }
 
+div{
+	transition-property: transform;
+	transition-duration: 1.2s;
+}
+
 .last{
 	padding-bottom: 2rem;
 	border-bottom: 2px solid whitesmoke;
