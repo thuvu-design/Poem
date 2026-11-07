@@ -1,3 +1,7 @@
+*{
+	 font-family: "Mea Culpa", cursive;
+}
+
 html {
 	width: 100%;
 	height: 100%;
@@ -9,7 +13,9 @@ body {
 	background-color: black;
 	color: white;
 	font-size: 5rem;
+	text-shadow: 5px 5px rgb(87, 87, 87);
 	overflow: hidden;
+	background-image: url(../img/Moon.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -29,6 +35,5 @@ div{
 
 .last{
 	padding-bottom: 2rem;
-	border-bottom: 2px solid whitesmoke;
-
+	border-bottom: 2px dotted rgba(245, 245, 245, 0.7);
 }
